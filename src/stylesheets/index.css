@@ -18,6 +18,7 @@ h1 {
   color: #ea854b;
 }
 
-#margin_bottom {
+#container-padding {
   padding-bottom: 12rem;
+  padding-top: 10rem;
 }

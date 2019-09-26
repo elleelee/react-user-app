@@ -12,7 +12,7 @@ class Footer extends Component {
         </div>
         <div className="footer-copyright">
           <img src="web-app.svg" alt="" className="footer-img"/>
-          This web app is made by Ellen Lee
+          This web app was created by Ellen Lee
         </div>
       </div>
     );
