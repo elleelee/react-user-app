@@ -1,0 +1,12 @@
+@import "_navbar.css";
+@import "_user_list.css";
+@import "_footer.css";
+
+body {
+ background-color: #fcf9ea;
+ color: #424444;
+}
+
+h1 {
+  color: #ea854b;
+}
