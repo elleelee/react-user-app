@@ -11,8 +11,8 @@ class App extends Component {
           <img src="app-card.svg" alt=""/>
         </div>
         <div className="app-card-content">
-          <h5>App Name: <span className="text-bold">{props.appName}</span></h5>
-          <p>Title: {props.appTitle}</p>
+          <h4>App: <span className="text-bold">{props.appName}</span></h4>
+          <h5>{props.appTitle}</h5>
         </div>
       </div>
     );

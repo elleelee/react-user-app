@@ -2,11 +2,22 @@
 @import "_user_list.css";
 @import "_footer.css";
 
+
+
 body {
  background-color: #fcf9ea;
  color: #424444;
 }
 
+.min-height {
+  min-height: 100vh;
+  position: relative;
+}
+
 h1 {
   color: #ea854b;
+}
+
+#margin_bottom {
+  padding-bottom: 12rem;
 }

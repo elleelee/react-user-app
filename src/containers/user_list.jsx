@@ -16,7 +16,7 @@ class UserList extends Component {
   render() {
     const props = this.props;
     return (
-      <div className="container">
+      <div className="container" id="margin_bottom">
         <h1 style={{marginBottom: '20px'}}>User Dashboard</h1>
         <p style={{fontSize: '20px', color: '#424444'}}>Click on the user to see associated account-app name and title</p>
         <div className="user-list">

@@ -25,8 +25,8 @@
   cursor: pointer;
 }
 
-.user-card h2 {
-  margin-top: 1.5em;
+.user-card h3 {
+  margin-top: 0;
   margin-bottom: 0;
   font-weight: bold;
 }
@@ -54,10 +54,12 @@
 }
 
 .user-card-svg {
-  height: 40px;
-  position: absolute;
-  bottom: 5%;
-  right: 5%
+  height: 100px;
+  margin-top: 1.5em;
+}
+
+.margin_top {
+  margin-top: 2em;
 }
 
 .app-card {
@@ -65,7 +67,8 @@
   justify-content: flex-start;
   align-items: center;
   border-bottom: 0.6px solid #badfdb;
-  padding-bottom: 0.6em;
+  padding-bottom: 1.6em;
+  margin-bottom: 1em;
 }
 
 .app-card-avatar {
@@ -74,13 +77,13 @@
   justify-content: center;
   border-radius: 50%;
   background-color: white;
-  height: 50px;
-  width: 50px;
-  margin-right: 1.2em;
+  height: 65px;
+  width: 65px;
+  margin-right: 1.6em;
   box-shadow: 1px 2px 4px rgba(0,0,0,0.2);
 }
 
 .app-card-avatar img {
-  height: 26px;
+  height: 32px;
 }
 

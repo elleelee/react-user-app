@@ -5,8 +5,8 @@ import { setTextFilter } from '../actions/filter';
 
 const UserListFilter = (props) => (
   <div className="search-input">
-      <i className="fas fa-search" id="search-icon"></i>
-      <input className="form-control" id="input" placeholder="Search by User Name" type="text" value={props.filter.text} onChange={(e) => {
+    <i className="fas fa-search" id="search-icon"></i>
+    <input className="form-control" id="input" placeholder="Search by User Name" type="text" value={props.filter.text} onChange={(e) => {
         props.dispatch(setTextFilter(e.target.value));
       }} />
   </div>

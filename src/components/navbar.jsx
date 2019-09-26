@@ -13,8 +13,7 @@ class Navbar extends Component {
         <div className="navbar-brand" >
           <div className="nav-left">
             <div className="nav-left-content">
-              <img src="brand-logo.svg" alt="" id="nav-icon" />
-              <p id="nav-text" onClick={this.onClick}>Home</p>
+              <img src="brand-logo.svg" alt="" id="nav-icon" onClick={this.onClick} />
             </div>
           </div>
           <div className="nav-right">

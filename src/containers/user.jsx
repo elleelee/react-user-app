@@ -29,11 +29,11 @@ class User extends Component {
           ref={(r) => this.flippy = r}
           style={{ height: '280px' }}>
 
-           <FrontSide style={{backgroundColor: '#ffc5a1', borderRadius: '5px', position: 'relative'}}>
+           <FrontSide style={{backgroundColor: '#ffc5a1', borderRadius: '5px', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <h5 className="text-white">Account ID: <span className="text-bold">{props.user.childData.account}</span></h5>
-            <h2 className="text-grey" id="margin-bottom-none">{props.user.childData.name}</h2>
-            <p>(user name)</p>
-            <img src="user-card.svg" alt="" className="user-card-svg"/>
+            <img src="user-avatar.svg" alt="" className="user-card-svg"/>
+            <h5 className="text-bold margin_top">USER NAME</h5>
+            <h3 className="text-grey" id="margin-bottom-none">{props.user.childData.name}</h3>
           </FrontSide>
 
             <BackSide style={{backgroundColor: '#3f847c', borderRadius: '5px', color: 'white'}}>
